@@ -7,6 +7,7 @@ Academic Project under Data Structures and Algorithms course
 As part of my CO252 project, I created a Music Player system using the Data Structures and Algorithms: mainly Doubly Linked List, stacks, and queues on C++. This music player can also be used to read and create song items from files. I have also optimized the program by using "itemCount" variable by updating it each and every time a song is added or deleted from the playlist, which removes the need for counting items in linked list (which we all know takes O(n) time), so it improves the time complexity of that function from O(n) to O(1). While it may be more annoying in the short term to update the item count value depending on the operation, there is a performance bonus from doing this. The major part of the challenge included making a doubly linked list that would accept string data and store it efficiently. Involving the usage of file handling was another challenge, to retrieve songs from a pre-made list and adding it to the linked list (current playlist). It also enabled me to write the new input songs to the file. All changes in the list were reflected on the "playlist.txt" file (automatically created while running the program).
 
 Programming Language used: C++
+
 Data Structures used: Linked Lists, Stacks, and Queues
 
 ![image](https://user-images.githubusercontent.com/67479922/187017381-2f3fd79f-7c2d-4764-8517-eae4fb8c4148.png)
